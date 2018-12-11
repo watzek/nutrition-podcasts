@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<!-- Website Design By: www.happyworm.com -->
+<title>Demo : The jPlayerPlaylist Object</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="jPlayer/dist/skin/blue.monday/css/jplayer.blue.monday.min.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="jPlayer/lib/jquery.min.js"></script>
+<script type="text/javascript" src="jPlayer/dist/jplayer/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="jPlayer/dist/add-on/jplayer.playlist.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+$(document).ready(function(){
+
+
+  new jPlayerPlaylist({
+
+      jPlayer: "#jquery_jplayer_1",
+
+      cssSelectorAncestor: "#jp_container_1"
+
+  }, [
+
+
+{
+title: "Epitaph For Seikilos / Gregorio Paniagua: Atrium Musicae (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 1 1)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Gregorio%20Paniagua_%20Atrium%20Musicae/A%20History%20Of%20Music%20In%20Western%20Culture,%204/1-01%20Epitaph%20For%20Seikilos.mp3"
+},
+{
+title: "Plainchant: Mass For Christmas Day - Introit / Schola Gregoriana Monacensis; Johannes Berchmans Göschl, Director (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 2 2)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Schola%20Gregoriana%20Monacensis_%20Johannes%20B/A%20History%20Of%20Music%20In%20Western%20Culture,%204/1-02%20Plainchant_%20Mass%20For%20Christmas.mp3"
+},
+{
+title: "Plainchant: Mass For Christmas Day - Gradual / Schola Gregoriana Monacensis; Johannes Berchmans Göschl, Director (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 3 3)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Schola%20Gregoriana%20Monacensis_%20Johannes%20B/A%20History%20Of%20Music%20In%20Western%20Culture,%204/1-03%20Plainchant_%20Mass%20For%20Christmas.mp3"
+},
+{
+title: "Plainchant: Mass For Christmas Day - Alleluia / Schola Gregoriana Monacensis; Johannes Berchmans Göschl, Director (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 4 4)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Schola%20Gregoriana%20Monacensis_%20Johannes%20B/A%20History%20Of%20Music%20In%20Western%20Culture,%204/1-04%20Plainchant_%20Mass%20For%20Christmas.mp3"
+},
+{
+title: "Plainchant: Mass For Christmas Day - Offertory / Schola Gregoriana Monacensis; Johannes Berchmans Göschl, Director (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 5 5)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Schola%20Gregoriana%20Monacensis_%20Johannes%20B/A%20History%20Of%20Music%20In%20Western%20Culture,%204/1-05%20Plainchant_%20Mass%20For%20Christmas.mp3"
+},
+{
+title: "Plainchant: Mass For Christmas Day - Communion / Schola Gregoriana Monacensis; Johannes Berchmans Göschl, Director (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 6 6)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Schola%20Gregoriana%20Monacensis_%20Johannes%20B/A%20History%20Of%20Music%20In%20Western%20Culture,%204/1-06%20Plainchant_%20Mass%20For%20Christmas.mp3"
+},
+{
+title: "Plainchant: Vespers On Pentecost Tuesday - Antiphon (Pacem Relinquo Vobis) And Psalm 116 (Laudate Dominum) / Konrad Ruhland: Choralschola Of The Niederaltaicher Scholaren (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 7 7)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Konrad%20Ruhland_%20Choralschola%20Of%20The%20Nied/A%20History%20Of%20Music%20In%20Western%20Culture,%204/1-07%20Plainchant_%20Vespers%20On%20Pentecos.mp3"
+},
+{
+title: "Plainchant Hymn: Pange Lingua Gloriosi Corporis Mysterium / Ensemble Clément Janequin; Marcel Pérès, Director (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 8 8)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Ensemble%20Cl%C3%A9ment%20Janequin_%20Marcel%20P%C3%A9r%C3%A8s,/A%20History%20Of%20Music%20In%20Western%20Culture,%204/1-08%20Plainchant%20Hymn_%20Pange%20Lingua%20G.mp3"
+},
+{
+title: "Ordo Virtutum (Excerpt) / Ensemble For Medieval Music; Stefan Morent, Director (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 9 9)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Ensemble%20For%20Medieval%20Music_%20Stefan%20More/A%20History%20Of%20Music%20In%20Western%20Culture,%204/1-09%20Ordo%20Virtutum%20(Excerpt).mp3"
+},
+{
+title: "A Chantar / Martin Best Medieval Ensemble (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 10 10)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Martin%20Best%20Medieval%20Ensemble/A%20History%20Of%20Music%20In%20Western%20Culture,%204/1-10%20A%20Chantar.mp3"
+},
+{
+title: "Baros, De Mon Dan Covit / Clemencic Consort; René Clemencic, Director (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 11 11)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Clemencic%20Consort_%20Ren%C3%A9%20Clemencic,%20Direc/A%20History%20Of%20Music%20In%20Western%20Culture,%204/1-11%20Baros,%20De%20Mon%20Dan%20Covit.mp3"
+},
+{
+title: "Cantigas De Santa Maria, No. 140: A Santa Maria Dadas / Martin Best Medieval Ensemble (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 12 12)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Martin%20Best%20Medieval%20Ensemble/A%20History%20Of%20Music%20In%20Western%20Culture,%204/1-12%20Cantigas%20De%20Santa%20Maria,%20No.%2014.mp3"
+},
+{
+title: "Palästinalied / Toronto Consort; John Pepper, Conductor (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 13 13)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Toronto%20Consort_%20John%20Pepper,%20Conductor/A%20History%20Of%20Music%20In%20Western%20Culture,%204/1-13%20Pal%C3%A4stinalied.mp3"
+},
+{
+title: "Melismatic Organum: Kyrie Cunctipotens Genitor Deus / Sequentia; Benjamin Bagby And Barbara Thornton, Directors (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 14 14)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Sequentia_%20Benjamin%20Bagby%20And%20Barbara%20Th/A%20History%20Of%20Music%20In%20Western%20Culture,%204/1-14%20Melismatic%20Organum_%20Kyrie%20Cunct.mp3"
+},
+{
+title: "Two-Voice Organum: Viderunt Omnes / Ensemble Organum; Marcel Pérès, Director (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 15 15)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Ensemble%20Organum_%20Marcel%20P%C3%A9r%C3%A8s,%20Director/A%20History%20Of%20Music%20In%20Western%20Culture,%204/1-15%20Two-Voice%20Organum_%20Viderunt%20Omn.mp3"
+},
+{
+title: "Four-Voice Organum: Viderunt Omnes / Theatre of Voices; Paul Hillier, director (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 16 16)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Theatre%20of%20Voices_%20Paul%20Hillier,%20directo/A%20History%20Of%20Music%20In%20Western%20Culture,%204/1-16%20Four-Voice%20Organum_%20Viderunt%20Om.mp3"
+},
+{
+title: "Two-Voice Clausula On \"Dominus\" / Tonus Peregrinus; Antony Pitts, Director (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 17 17)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Tonus%20Peregrinus_%20Antony%20Pitts,%20Director/A%20History%20Of%20Music%20In%20Western%20Culture,%204/1-17%20Two-Voice%20Clausula%20On%20_Dominus_.mp3"
+},
+{
+title: "Motet: Factum Est Salutare / Dominus / Tonus Peregrinus; Antony Pitts, Director (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 18 18)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Tonus%20Peregrinus_%20Antony%20Pitts,%20Director/A%20History%20Of%20Music%20In%20Western%20Culture,%204/1-18%20Motet_%20Factum%20Est%20Salutare%20_%20Do.mp3"
+},
+{
+title: "Motet: Super Te / Sed Fulsit / Dominus (4 Vv.) / Gothic Voices; Chirstopher Page, Director (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 19 19)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Gothic%20Voices_%20Chirstopher%20Page,%20Directo/A%20History%20Of%20Music%20In%20Western%20Culture,%204/1-19%20Motet_%20Super%20Te%20_%20Sed%20Fulsit%20_.mp3"
+},
+{
+title: "Motet: A Paris / On Parole / Frese Nouvele / The Dufay Collective (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 20 20)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/The%20Dufay%20Collective/A%20History%20Of%20Music%20In%20Western%20Culture,%204/1-20%20Motet_%20A%20Paris%20_%20On%20Parole%20_%20Fr.mp3"
+},
+{
+title: "Conductus: Flos Ut Rosa Floruit / Tapestry; Laurie Monahan, Conductor (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 21 21)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Tapestry_%20Laurie%20Monahan,%20Conductor/A%20History%20Of%20Music%20In%20Western%20Culture,%204/1-21%20Conductus_%20Flos%20Ut%20Rosa%20Floruit.mp3"
+},
+{
+title: "Motet: Garrit Gallus / In Nova Fert / Neuma / Sequentia (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 22 22)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Sequentia/A%20History%20Of%20Music%20In%20Western%20Culture,%204/1-22%20Motet_%20Garrit%20Gallus%20_%20In%20Nova.mp3"
+},
+{
+title: "Messe De Nostre Dame: Kyrie / Orlando Consort; Paul Hillier, Conductor (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 23 23)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Orlando%20Consort_%20Paul%20Hillier,%20Conductor/A%20History%20Of%20Music%20In%20Western%20Culture,%204/1-23%20Messe%20De%20Nostre%20Dame_%20Kyrie.mp3"
+},
+{
+title: "Ballade: Je Puis Trop Bien Ma Dame Comparer / Orlando Consort (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 24 24)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Orlando%20Consort/A%20History%20Of%20Music%20In%20Western%20Culture,%204/1-24%20Ballade_%20Je%20Puis%20Trop%20Bien%20Ma%20D.mp3"
+},
+{
+title: "Virelai: Douce Dame Jolie / Christopher Page: Gothic Voices (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 25 25)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Christopher%20Page_%20Gothic%20Voices/A%20History%20Of%20Music%20In%20Western%20Culture,%204/1-25%20Virelai_%20Douce%20Dame%20Jolie.mp3"
+},
+{
+title: "Rondeau: Ma Fin Est Mon Commencement / Orlando Consort (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 26 26)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Orlando%20Consort/A%20History%20Of%20Music%20In%20Western%20Culture,%204/1-26%20Rondeau_%20Ma%20Fin%20Est%20Mon%20Commenc.mp3"
+},
+{
+title: "Virelai: Joieux de cuer / Gothic Voices; Christopher Page, director (A History of Music in Western Culture, 4th Edition - CD Set Volume I - Antiquity through the Baroque Era, track 1 27)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/2-01%20Virelai_%20Joieux%20de%20cuer.mp3"
+},
+{
+title: "Ballata: Ecco la primavera / Anonymous 4 (A History of Music in Western Culture, 4th Edition - CD Set Volume I - Antiquity through the Baroque Era, track 2 28)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/2-02%20Ballata_%20Ecco%20la%20primavera.mp3"
+},
+{
+title: "Madrigal: Non al suo amante / Newberry Consort; Mary Springels, conductor (A History of Music in Western Culture, 4th Edition - CD Set Volume I - Antiquity through the Baroque Era, track 3 29)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/2-03%20Madrigal_%20Non%20al%20suo%20amante.mp3"
+},
+{
+title: "A poste messe / La Reverdie (A History of Music in Western Culture, 4th Edition - CD Set Volume I - Antiquity through the Baroque Era, track 4 30)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/2-04%20A%20poste%20messe.mp3"
+},
+{
+title: "Motet: Doctorum principem / Melodia suavissima / Vir mitis / Orlando Consort (A History of Music in Western Culture, 4th Edition - CD Set Volume I - Antiquity through the Baroque Era, track 5 31)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/2-05%20Motet_%20Doctorum%20principem%20_%20Mel.mp3"
+},
+{
+title: "Canon: Sumer is icumen in / Hilliard Ensemble; Paul Hillier, conductor (A History of Music in Western Culture, 4th Edition - CD Set Volume I - Antiquity through the Baroque Era, track 6 32)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/2-06%20Canon_%20Sumer%20is%20icumen%20in.mp3"
+},
+{
+title: "Song: Edi be thu, heven-queene / Hilliard Ensemble; Paul Hillier, conductor (A History of Music in Western Culture, 4th Edition - CD Set Volume I - Antiquity through the Baroque Era, track 7 33)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/2-07%20Song_%20Edi%20be%20thu,%20heven-queene.mp3"
+},
+{
+title: "La quinte estampie real / Ensemble d'instruments anciens Loïndana (A History of Music in Western Culture, 4th Edition - CD Set Volume I - Antiquity through the Baroque Era, track 8 34)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/2-08%20La%20quinte%20estampie%20real.mp3"
+},
+{
+title: "Motet: Quam pulchra es / Lionheart (A History of Music in Western Culture, 4th Edition - CD Set Volume I - Antiquity through the Baroque Era, track 9 35)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/2-09%20Motet_%20Quam%20pulchra%20es.mp3"
+},
+{
+title: "Conditor alme siderum / László Dobszay: Schola Hungarica (A History of Music in Western Culture, 4th Edition - CD Set Volume I - Antiquity through the Baroque Era, track 10 36)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/2-10%20Conditor%20alme%20siderum.mp3"
+},
+{
+title: "Motet: Nuper rosarum flores / Paul Van Nevel: Huelgas Ensemble (A History of Music in Western Culture, 4th Edition - CD Set Volume I - Antiquity through the Baroque Era, track 11 37)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/2-11%20Motet_%20Nuper%20rosarum%20flores.mp3"
+},
+{
+title: "Motet: Ave Maria…virgo serena / Jeremy Summerly: Oxford Camerata (A History of Music in Western Culture, 4th Edition - CD Set Volume I - Antiquity through the Baroque Era, track 12 38)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/2-12%20Motet_%20Ave%20Maria%E2%80%A6virgo%20serena.mp3"
+},
+{
+title: "Se la face ay pale / Capella Antiqua München; Konrad Ruhland, director (A History of Music in Western Culture, 4th Edition - CD Set Volume I - Antiquity through the Baroque Era, track 13 39)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/2-13%20Se%20la%20face%20ay%20pale.mp3"
+},
+{
+title: "Missa Se la face ay pale: Gloria / The Binchois Consort; Andrew Kirkman, conductor (A History of Music in Western Culture, 4th Edition - CD Set Volume I - Antiquity through the Baroque Era, track 14 40)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/2-14%20Missa%20Se%20la%20face%20ay%20pale_%20Glori.mp3"
+},
+{
+title: "Missa prolationum: Kyrie / Musica Ficta; Bo Holten, director (A History of Music in Western Culture, 4th Edition - CD Set Volume I - Antiquity through the Baroque Era, track 15 41)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/2-15%20Missa%20prolationum_%20Kyrie.mp3"
+},
+{
+title: "Chanson: Fortuna desperata / David Munrow: Early Music Consort Of London (A History of Music in Western Culture, 4th Edition - CD Set Volume I - Antiquity through the Baroque Era, track 16 42)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/2-16%20Chanson_%20Fortuna%20desperata.mp3"
+},
+{
+title: "Missa Fortuna desperata: Kyrie / Peter Phillips: The Tallis Scholars (A History of Music in Western Culture, 4th Edition - CD Set Volume I - Antiquity through the Baroque Era, track 17 43)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/2-17%20Missa%20Fortuna%20desperata_%20Kyrie.mp3"
+},
+{
+title: "Missa Fortuna desperata: Agnus Dei / Peter Phillips: The Tallis Scholars (A History of Music in Western Culture, 4th Edition - CD Set Volume I - Antiquity through the Baroque Era, track 18 44)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/2-18%20Missa%20Fortuna%20desperata_%20Agnus.mp3"
+},
+{
+title: "Missa Pange lingua: Kyrie / Peter Phillips: The Tallis Scholars (A History of Music in Western Culture, 4th Edition - CD Set Volume I - Antiquity through the Baroque Era, track 19 45)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/2-19%20Missa%20Pange%20lingua_%20Kyrie.mp3"
+},
+{
+title: "Motet: Absalon, fili mi / Oxford Camerata And Jeremy Summerly, Director (A History of Music in Western Culture, 4th Edition - CD Set Volume I - Antiquity through the Baroque Era, track 20 46)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/2-20%20Motet_%20Absalon,%20fili%20mi.mp3"
+},
+{
+title: "Chanson: Adieu ces bons vins de Lannoys / Ensemble Unicorn, Vienna; Michael Posch, conductor (A History of Music in Western Culture, 4th Edition - CD Set Volume I - Antiquity through the Baroque Era, track 21 47)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/2-21%20Chanson_%20Adieu%20ces%20bons%20vins%20de.mp3"
+},
+{
+title: "Chanson: Je Ne Puis Vivre Ainsy / Pomerium; Alexander Blachly, Conductor (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 1 48)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/3-01%20Chanson_%20Je%20Ne%20Puis%20Vivre%20Ainsy.mp3"
+},
+{
+title: "Innsbruck, Ich Muss Dich Lassen / Vienna Concentus Musicus, Nikolas Harnoncourt, Director (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 2 49)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/3-02%20Innsbruck,%20Ich%20Muss%20Dich%20Lassen.mp3"
+},
+{
+title: "Hor Venduto Ho La Spreranza / Concordia, Mark Levy, Conductor (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 3 50)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/3-03%20Hor%20Venduto%20Ho%20La%20Spreranza.mp3"
+},
+{
+title: "El Grillo / Capilla Flamenca (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 4 51)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/3-04%20El%20Grillo.mp3"
+},
+{
+title: "El Grillo / Shirley Rumsey, Lute & Alto (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 5 52)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/3-05%20El%20Grillo.mp3"
+},
+{
+title: "Chanson: Tant Que Vivray / The Scholars Of London (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 6 53)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/3-06%20Chanson_%20Tant%20Que%20Vivray.mp3"
+},
+{
+title: "Madrigal: Il Bianco E Dolce Cigno / Anthony Rooley: The Consort Of Musicke (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 7 54)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/3-07%20Madrigal_%20Il%20Bianco%20E%20Dolce%20Cig.mp3"
+},
+{
+title: "Madrigal: Da Le Belle Contrade D’oriente / Anthony Rooley: The Consort Of Musicke (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 8 55)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/3-08%20Madrigal_%20Da%20Le%20Belle%20Contrade.mp3"
+},
+{
+title: "Madrigal: Morir Non Può Il Mio Cuore / The Hilliard Ensemble (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 9 56)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/3-09%20Madrigal_%20Morir%20Non%20Pu%C3%B2%20Il%20Mio.mp3"
+},
+{
+title: "Madrigal: Solo E Pensoso / La Venexiana; Claudio Cavina, Director (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 10 57)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/3-10%20Madrigal_%20Solo%20E%20Pensoso.mp3"
+},
+{
+title: "Madrigal: T’amo Mia Vita / Anthony Rooley: The Consort Of Musicke (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 11 58)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/3-11%20Madrigal_%20T_amo%20Mia%20Vita.mp3"
+},
+{
+title: "Matona Mia Cara / Jeremy Summerly: Oxford Camerata (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 12 59)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/3-12%20Matona%20Mia%20Cara.mp3"
+},
+{
+title: "Zwischen Berg Und Tiefem Tal / Les Menestrels (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 13 60)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/3-13%20Zwischen%20Berg%20Und%20Tiefem%20Tal.mp3"
+},
+{
+title: "Al Amor Quiero Vencer / Charivari Agréable (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 14 61)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/3-14%20Al%20Amor%20Quiero%20Vencer.mp3"
+},
+{
+title: "Madrigal: Now Is The Month Of Maying / Toronto Consort (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 15 62)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/3-15%20Madrigal_%20Now%20Is%20The%20Month%20Of%20M.mp3"
+},
+{
+title: "Madrigal: Fair Phyllis I Saw Sitting All Alone / Jeremy Summerly: Oxford Camerata (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 16 63)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/3-16%20Madrigal_%20Fair%20Phyllis%20I%20Saw%20Si.mp3"
+},
+{
+title: "Lute Song: Come, Heavy Sleep (First Stanza) / Anthony Rooley: The Consort Of Musicke (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 17 64)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/3-17%20Lute%20Song_%20Come,%20Heavy%20Sleep%20(F.mp3"
+},
+{
+title: "Lute Song: Come, Heavy Sleep (Second Stanza) / Steven Rickards, Countertenor; Dorothy Linell, Lute (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 18 65)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/3-18%20Lute%20Song_%20Come,%20Heavy%20Sleep%20(S.mp3"
+},
+{
+title: "Anthem: Verily, Verily I Say Unto You / Peter Phillips: The Tallis Scholars (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 19 66)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/3-19%20Anthem_%20Verily,%20Verily%20I%20Say%20Un.mp3"
+},
+{
+title: "Anthem: Sing Joyfully Unto God / Salisbury Cathedral Choir; Richard Seal, Conductor (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 20 67)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/3-20%20Anthem_%20Sing%20Joyfully%20Unto%20God.mp3"
+},
+{
+title: "Missa Papae Marcelli: Credo / Jeremy Summerly: Oxford Camerata (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 21 68)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/3-21%20Missa%20Papae%20Marcelli_%20Credo.mp3"
+},
+{
+title: "Motet: Cum Essem Parvulus / Pomerium; Alexander Blachly, Director (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 22 69)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/3-22%20Motet_%20Cum%20Essem%20Parvulus.mp3"
+},
+{
+title: "Prophetiae Sibyllarum: Prologue / Cantus Cölln (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 23 70)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/3-23%20Prophetiae%20Sibyllarum_%20Prologue.mp3"
+},
+{
+title: "Diferencias Sobre El Canto De La Dama Le Demanda / Claudio Astronio, Harpsichord (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 24 71)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/3-24%20Diferencias%20Sobre%20El%20Canto%20De%20L.mp3"
+},
+{
+title: "Recercar Quinto / Christopher Wilson (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 25 72)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/3-25%20Recercar%20Quinto.mp3"
+},
+{
+title: "Ricercar Del Duodecimo Tuono / His Majestys Sackbutts And Cornetts; Timothy Roberts, Conductor (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 26 73)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/3-26%20Ricercar%20Del%20Duodecimo%20Tuono.mp3"
+},
+{
+title: "Pavana, The Earle Of Salisbury / Davitt Moroney (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 27 74)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/3-27%20Pavana,%20The%20Earle%20Of%20Salisbury.mp3"
+},
+{
+title: "Dances From Terpsichore: Boureé / Westra Aros Pijpare, Bertil Farnlof, Conductor (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 1 75)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/4-01%20Dances%20From%20Terpsichore_%20Boure%C3%A9.mp3"
+},
+{
+title: "Dances From Terpsichore: Volte / Westra Aros Pijpare, Bertil Farnlof, Conductor (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 2 76)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/4-02%20Dances%20From%20Terpsichore_%20Volte.mp3"
+},
+{
+title: "Dunque Fra Torbid’ Onde From Il Canto d’Arione / Paul Van Nevel: Huelgas Ensemble (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 3 77)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/4-03%20Dunque%20Fra%20Torbid_%20Onde%20From%20Il.mp3"
+},
+{
+title: "Sfogava Con Le Stelle / Catherine Bott, Soprano; Nigel North, Lute (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 4 78)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/4-04%20Sfogava%20Con%20Le%20Stelle.mp3"
+},
+{
+title: "Madrigal: Cruda Amarilli / La Venexiana; Claudio Cavina, Director (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 5 79)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/4-05%20Madrigal_%20Cruda%20Amarilli.mp3"
+},
+{
+title: "Madrigal: T’amo Mia Vita / La Venexiana; Claudio Cavina, Director (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 6 80)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/4-06%20Madrigal_%20T_amo%20Mia%20Vita.mp3"
+},
+{
+title: "Madrigal: Zefiro Torna E Di Soavi Accenti / Les Arts Florissants, William Christie, Conductor (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 7 81)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/4-07%20Madrigal_%20Zefiro%20Torna%20E%20Di%20Soa.mp3"
+},
+{
+title: "Lasciatemi Qui Solo / Emily Van Evera, Soprano; Elizabeth Kenny, Theorbo (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 8 82)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/4-08%20Lasciatemi%20Qui%20Solo.mp3"
+},
+{
+title: "Tradimento! / Ensemble Galilei; Paul Beier, Conductor (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 9 83)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/4-09%20Tradimento!.mp3"
+},
+{
+title: "Enfin La Beauté Que J’adore / Marie Claude Vallin, Soprano; Lutz Kirchhof, Lute (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 10 84)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/4-10%20Enfin%20La%20Beaut%C3%A9%20Que%20J_adore.mp3"
+},
+{
+title: "L’Orfeo, Act II (Excerpt) / Anthony Rolfe-Johnson, Tenor; The English Baroque Solists, John Eliot Gardiner, Conductor (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 11 85)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/4-11%20L_Orfeo,%20Act%20II%20(Excerpt).mp3"
+},
+{
+title: "L’incoronazione Di Poppea, Act I, Scene 3 / Danielle Borst, Soprano; Guillemette Laurens, Mezzo-Soprano; Concerto Vocale, René Jacobs, Conductor (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 12 86)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/4-12%20L_incoronazione%20Di%20Poppea,%20Act.mp3"
+},
+{
+title: "Singet Dem Herren Ein Neues Lied, SWV 342 / Martin Klietmann, Tenor; Capella Savaria; Pal Nemeth, Director (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 13 87)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/4-13%20Singet%20Dem%20Herren%20Ein%20Neues%20Lie.mp3"
+},
+{
+title: "Motet: Saul, Was Verfolgst Du Mich? / Ensemble Akademia Vocal; Francoise Lasserre, Director (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 14 88)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/4-14%20Motet_%20Saul,%20Was%20Verfolgst%20Du%20M.mp3"
+},
+{
+title: "Opera: Armide: Overture / Guillemette Laurens, Mezzo-Soprano; Collegium Vocale; La Chapelle Royale, Philippe Herreweghe, Conductor (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 15 89)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/4-15%20Opera_%20Armide_%20Overture.mp3"
+},
+{
+title: "Opera: Armide: Act II, Scene 5 / Guillemette Laurens, Mezzo-Soprano; Collegium Vocale; La Chapelle Royale, Philippe Herreweghe, Conductor (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 16 90)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/4-16%20Opera_%20Armide_%20Act%20II,%20Scene%205.mp3"
+},
+{
+title: "Opera: Giulio Cesare, Act I: Scene 5 / Barbara Schlick, Soprano; Derek Lee Ragin, Countertenor; Jennifer Larmore, Soprano; Concerto Köln; Rene Jacobs, Conductor (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 1 91)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/5-01%20Opera_%20Giulio%20Cesare,%20Act%20I_%20Sc.mp3"
+},
+{
+title: "Opera: Giulio Cesare, Act I: Scene 6 / Barbara Schlick, Soprano; Derek Lee Ragin, Countertenor; Jennifer Larmore, Soprano; Concerto Köln; Rene Jacobs, Conductor (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 2 92)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/5-02%20Opera_%20Giulio%20Cesare,%20Act%20I_%20Sc.mp3"
+},
+{
+title: "Opera: Giulio Cesare, Act I: Scene 7 / Barbara Schlick, Soprano; Derek Lee Ragin, Countertenor; Jennifer Larmore, Soprano; Concerto Köln; Rene Jacobs, Conductor (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 3 93)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/5-03%20Opera_%20Giulio%20Cesare,%20Act%20I_%20Sc.mp3"
+},
+{
+title: "Opera: Dido And Aeneas, Act I: No. 1 / Scholars Baroque Ensemble, David van Asch (conductor) (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 4 94)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/5-04%20Opera_%20Dido%20And%20Aeneas,%20Act%20I_.mp3"
+},
+{
+title: "Opera: Dido And Aeneas, Act I: No. 2 / Scholars Baroque Ensemble, David van Asch (conductor) (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 5 95)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/5-05%20Opera_%20Dido%20And%20Aeneas,%20Act%20I_.mp3"
+},
+{
+title: "Opera: Dido And Aeneas, Act I: No. 3 / Scholars Baroque Ensemble, David van Asch (conductor) (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 6 96)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/5-06%20Opera_%20Dido%20And%20Aeneas,%20Act%20I_.mp3"
+},
+{
+title: "Opera: Dido And Aeneas, Act I: No. 4 / Scholars Baroque Ensemble, David van Asch (conductor) (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 7 97)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/5-07%20Opera_%20Dido%20And%20Aeneas,%20Act%20I_.mp3"
+},
+{
+title: "Opera: Dido And Aeneas, Act I: No. 5 / Scholars Baroque Ensemble, David van Asch (conductor) (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 8 98)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/5-08%20Opera_%20Dido%20And%20Aeneas,%20Act%20I_.mp3"
+},
+{
+title: "Opera: Dido And Aeneas, Act I: No. 6 / Scholars Baroque Ensemble, David van Asch (conductor) (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 9 99)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/5-09%20Opera_%20Dido%20And%20Aeneas,%20Act%20I_.mp3"
+},
+{
+title: "The Beggar’s Opera: Air 1, \"Through All The Employments Of Life” / Broadside Band; Jeremy Barlow, Conductor (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 10 100)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/5-10%20The%20Beggar_s%20Opera_%20Air%201,%20_Thr.mp3"
+},
+{
+title: "The Beggar’s Opera: Air 7, \"Our Polly Is A Sad Slut\" / Broadside Band; Jeremy Barlow, Conductor (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 11 101)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/5-11%20The%20Beggar_s%20Opera_%20Air%207,%20_Our.mp3"
+},
+{
+title: "The Beggar’s Opera: Air 8, “Can Love Be Controul’d By Advice?” / Broadside Band; Jeremy Barlow, Conductor (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 12 102)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/5-12%20The%20Beggar_s%20Opera_%20Air%208,%20_Can.mp3"
+},
+{
+title: "Giacomo Carrissimi: Jephte (Excerpt) / Currende Vocal Ensemble, Erik Van Nevel, Conductor (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 13 103)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/5-13%20Giacomo%20Carrissimi_%20Jephte%20(Exc.mp3"
+},
+{
+title: "Anthem: Zadok The Priest / Royal Academy Consort, Jeremy Summerly, Conductor (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 14 104)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/5-14%20Anthem_%20Zadok%20The%20Priest.mp3"
+},
+{
+title: "“Le Coup Est Achevé” From Judith / Sophie Boulin, Soprano; Guy Robert, Theorbo (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 15 105)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/5-15%20_Le%20Coup%20Est%20Achev%C3%A9_%20From%20Judit.mp3"
+},
+{
+title: "Jesu, Der Du Meine Seele, BWV 78: I / Catherine Bott, Soprano; Daniel Taylor, Countertenor; William Sharp, Bass; American Bach Soloists, Jeffrey Thomas, Conductor (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 16 106)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/5-16%20Jesu,%20Der%20Du%20Meine%20Seele,%20BWV%207.mp3"
+},
+{
+title: "Jesu, Der Du Meine Seele, BWV 78: II / Catherine Bott, Soprano; Daniel Taylor, Countertenor; William Sharp, Bass; American Bach Soloists, Jeffrey Thomas, Conductor (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 17 107)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/5-17%20Jesu,%20Der%20Du%20Meine%20Seele,%20BWV%207.mp3"
+},
+{
+title: "Jesu, Der Du Meine Seele, BWV 78: V / Catherine Bott, Soprano; Daniel Taylor, Countertenor; William Sharp, Bass; American Bach Soloists, Jeffrey Thomas, Conductor (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 18 108)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/5-18%20Jesu,%20Der%20Du%20Meine%20Seele,%20BWV%207.mp3"
+},
+{
+title: "Jesu, Der Du Meine Seele, BWV 78: VI / Catherine Bott, Soprano; Daniel Taylor, Countertenor; William Sharp, Bass; American Bach Soloists, Jeffrey Thomas, Conductor (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 19 109)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/5-19%20Jesu,%20Der%20Du%20Meine%20Seele,%20BWV%207.mp3"
+},
+{
+title: "Jesu, Der Du Meine Seele, BWV 78: VII / Catherine Bott, Soprano; Daniel Taylor, Countertenor; William Sharp, Bass; American Bach Soloists, Jeffrey Thomas, Conductor (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 20 110)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/5-20%20Jesu,%20Der%20Du%20Meine%20Seele,%20BWV%207.mp3"
+},
+{
+title: "Sonata Duodecima / La Villanella Basel (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 21 111)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/5-21%20Sonata%20Duodecima.mp3"
+},
+{
+title: "Concerto Grosso In F Major, Op. 6, No. 2 / Capella Istropolitana, Jaroslav Krcek, Conductor (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 1 112)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/01%20Concerto%20Grosso%20In%20F%20Major,%20Op.%206.mp3"
+},
+{
+title: "Concerto In A Minor, Op. 3, No. 8, First Movement / Capella Istropolitana, Jaroslav Krcek, Conductor (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 2 113)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/02%20Concerto%20In%20A%20Minor,%20Op.%203,%20No.%208.mp3"
+},
+{
+title: "Pièces De Clavecin, Book I, Second Ordre: 1st Courante / Michael Borgstede, Harpsichord (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 3 114)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/03%20Pi%C3%A8ces%20De%20Clavecin,%20Book%20I,%20Secon.mp3"
+},
+{
+title: "Pièces De Clavecin, Book I, Second Ordre: La Prude / Michael Borgstede, Harpsichord (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 4 115)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/04%20Pi%C3%A8ces%20De%20Clavecin,%20Book%20I,%20Secon.mp3"
+},
+{
+title: "“Le Cahos” From Les Élémens / Musica Antiqua Köln, Reinhard Goebel, Conductor (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 5 116)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/05%20_Le%20Cahos_%20From%20Les%20%C3%89l%C3%A9mens.mp3"
+},
+{
+title: "Toccata IX From Il Secondo Libro Di Toccate / Louis Bagger, Harpsichord (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 6 117)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/06%20Toccata%20IX%20From%20Il%20Secondo%20Libro.mp3"
+},
+{
+title: "Praeludium In G Minor, BuxWV 149 / Michael Farris, Organ (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 7 118)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/07%20Praeludium%20In%20G%20Minor,%20BuxWV%20149.mp3"
+},
+{
+title: "The Well-Tempered Clavier, Book I: Prelude And Fugue In C Major / Davitt Moroney (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 8 119)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/08%20The%20Well-Tempered%20Clavier,%20Book%20I.mp3"
+},
+{
+title: "The Well-Tempered Clavier, Book I: Prelude And Fugue In C-Sharp Minor / Davitt Moroney (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 9 120)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/09%20The%20Well-Tempered%20Clavier,%20Book%20I.mp3"
+},
+{
+title: "Chorale Prelude On The Magnificat Peregrini Toni / Antoine Bouchard, Organ (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 10 121)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/10%20Chorale%20Prelude%20On%20The%20Magnificat.mp3"
+},
+{
+title: "Chorale Prelude On Meine Seele Erhebt Den Herren, BWV 648 / Lionel Rogg (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 11 122)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/11%20Chorale%20Prelude%20On%20Meine%20Seele%20Er.mp3"
+},
+{
+title: "Aria Mit Dreißig Veränderungen, BWV 988 (“Goldberg” Variations): Aria / Kenneth Gilbert (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 12 123)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/12%20Aria%20Mit%20Drei%C3%9Fig%20Ver%C3%A4nderungen,%20B.mp3"
+},
+{
+title: "Aria Mit Dreißig Veränderungen, BWV 988 (“Goldberg” Variations): Variation I / Kenneth Gilbert (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 13 124)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/13%20Aria%20Mit%20Drei%C3%9Fig%20Ver%C3%A4nderungen,%20B.mp3"
+},
+{
+title: "Aria Mit Dreißig Veränderungen, BWV 988 (“Goldberg” Variations): Variation II / Kenneth Gilbert (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 14 125)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/14%20Aria%20Mit%20Drei%C3%9Fig%20Ver%C3%A4nderungen,%20B.mp3"
+},
+{
+title: "Aria Mit Dreißig Veränderungen, BWV 988 (“Goldberg” Variations): Variation III / Kenneth Gilbert (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 15 126)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/15%20Aria%20Mit%20Drei%C3%9Fig%20Ver%C3%A4nderungen,%20B.mp3"
+},
+{
+title: "Aria Mit Dreißig Veränderungen, BWV 988 (“Goldberg” Variations): Variation IV / Kenneth Gilbert (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 16 127)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/16%20Aria%20Mit%20Drei%C3%9Fig%20Ver%C3%A4nderungen,%20B.mp3"
+},
+{
+title: "Aria Mit Dreißig Veränderungen, BWV 988 (“Goldberg” Variations): Aria / Glenn Gould, piano (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 17 128)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/17%20Aria%20Mit%20Drei%C3%9Fig%20Ver%C3%A4nderungen,%20B.mp3"
+},
+{
+title: "Aria Mit Dreißig Veränderungen, BWV 988 (“Goldberg” Variations): I / Glenn Gould, piano (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 18 129)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/18%20Aria%20Mit%20Drei%C3%9Fig%20Ver%C3%A4nderungen,%20B.mp3"
+},
+{
+title: "Aria Mit Dreißig Veränderungen, BWV 988 (“Goldberg” Variations): II / Glenn Gould, piano (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 19 130)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/19%20Aria%20Mit%20Drei%C3%9Fig%20Ver%C3%A4nderungen,%20B.mp3"
+},
+{
+title: "Aria Mit Dreißig Veränderungen, BWV 988 (“Goldberg” Variations): III / Glenn Gould, piano (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 20 131)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/20%20Aria%20Mit%20Drei%C3%9Fig%20Ver%C3%A4nderungen,%20B.mp3"
+},
+{
+title: "Aria Mit Dreißig Veränderungen, BWV 988 (“Goldberg” Variations): IV / Glenn Gould, piano (A History Of Music In Western Culture, 4th Edition - CD Set Volume I - Antiquity Through The Baroque Era, track 21 132)",
+mp3: "https://watzek.lclark.edu/reserves/audio/iTunes%20Media/Music/Compilations/A%20History%20Of%20Music%20In%20Western%20Culture,%204/21%20Aria%20Mit%20Drei%C3%9Fig%20Ver%C3%A4nderungen,%20B.mp3"
+},
+
+
+
+
+  ], {
+
+
+  swfPath: "dist/jplayer",
+  supplied: "oga, mp3",
+  wmode: "window",
+  useStateClassSkin: true,
+  autoBlur: false,
+  smoothPlayBar: true,
+  keyEnabled: true
+
+
+
+  });
+
+
+
+
+});
+
+
+//]]>
+</script>
+
+<style>
+#jp_container_1{width:100%;}
+</style>
+
+
+</head>
+<body>
+
+
+
+
+
+
+
+<div class="container">
+<div class="header clearfix">
+<h3 class="text-muted">MUS 162 - Beck - History of Western Music</h3>
+</div>
+<div id="jquery_jplayer_1" class="jp-jplayer"></div>
+<div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
+	<div class="jp-type-playlist">
+		<div class="jp-gui jp-interface">
+			<div class="jp-controls">
+				<button class="jp-previous" role="button" tabindex="0">previous</button>
+				<button class="jp-play" role="button" tabindex="0">play</button>
+				<button class="jp-next" role="button" tabindex="0">next</button>
+				<button class="jp-stop" role="button" tabindex="0">stop</button>
+			</div>
+			<div class="jp-progress">
+				<div class="jp-seek-bar">
+					<div class="jp-play-bar"></div>
+				</div>
+			</div>
+			<div class="jp-volume-controls">
+				<button class="jp-mute" role="button" tabindex="0">mute</button>
+				<button class="jp-volume-max" role="button" tabindex="0">max volume</button>
+				<div class="jp-volume-bar">
+					<div class="jp-volume-bar-value"></div>
+				</div>
+			</div>
+			<div class="jp-time-holder">
+				<div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
+				<div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
+			</div>
+			<div class="jp-toggles">
+				<button class="jp-repeat" role="button" tabindex="0">repeat</button>
+				<button class="jp-shuffle" role="button" tabindex="0">shuffle</button>
+			</div>
+		</div>
+		<div class="jp-playlist">
+			<ul>
+				<li>&nbsp;</li>
+			</ul>
+		</div>
+		<div class="jp-no-solution">
+			<span>Update Required</span>
+			To play the media you will need to either update your browser to a recent version or update your <a href="https://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+		</div>
+	</div>
+</div>
+
+</div><!-- container -->
+
+
+
+</body>
+
+
+</html>
